@@ -14,3 +14,9 @@ By Antonio Mele
 	git remote add origin https://github.com/trisgelar/educa.git
 	git push -u origin master
 ```
+
+### DumpData
+```
+	python manage.py dumpdata courses --indent=2 --output=courses/fixtures/subject.json
+	python	manage.py loaddata subjects.json
+```
